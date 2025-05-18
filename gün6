@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC>
+<html>
+	<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Berra'nın bloğu</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,
+        initial-scale=1.0">
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="style.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+
+	
+<div id="baslik">
+	<div id="logo">
+		<h1>Berra's Blog</a></h1>
+		<h2>Kütahyam Ve Ben</h2>
+	</div>
+	<div id="tiklamalar">
+		<ul>
+			<li class="active">
+            <a href="gün6.html">ANASAYFA</a></li>
+			<li><a href="memleketim.html">MEMLEKETİM</a></li>
+			<li><a href="futbol.html">FUTBOL TAKIMI</a></li>
+			<li><a href="yenilecek_yemekleri.html">YEMEK LEZZETLERİ</a></li>
+			<li><a href="giriş ekranı html.html" class="button">Giriş Yap</a></li>
+		</ul>
+	</div>
+</div>
+<br>
+<br>
+<br>
+<br>
+
+
+<div id="icerik">
+	<div id="ortalama">
+			<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+			<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+	
+			<div class="kaydirmalifotograf">
+				<div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
+					<div class="carousel-inner">
+					  <div class="carousel-item active">
+						<img src="ben1.png" class="d-block w-100" alt="resim">
+					  </div>
+					  <div class="carousel-item">
+						<img src="ben2.jpg" class="d-block w-100" alt="resim">
+					  </div>
+					  <div class="carousel-item">
+						<img src="ben3.jpg" class="d-block w-100" alt="resim">
+					  </div>
+					</div>
+					<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+					  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					  <span class="visually-hidden">Previous</span>
+					</button>
+					<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+					  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+					  <span class="visually-hidden">Next</span>
+					</button>
+				  </div>
+			</div>
+            <br>
+            <br>
+
+			<h2 class="baslik">Berra'nın bloğuna hoşgeldiniz!</h2>
+				<p><em><strong>Berra'nın bloğuna hepiniz hoşgeldiniz!</strong></em>Burada güzel şehrim Kütahya'dan ve kendimden bahsedeceğim:)</p>
+			</div>
+				
+			<h2 class="baslik">Ben</h2>
+			<p>Selamlar! Ben Müberra Akpınar. Aslen Kütahyalıyım ama yıllardır Ankarada yaşıyorum:) Sakarya Üniversitesi Bilgisayar Mühendisliği 1. sınıf öğrencisiyim. 29 ağustos 2005 sabah 8 saatlerinde dünyaya gelmişim. 1 ay erken doğmuşum. Burcum Başak ama saate bakınca aynı zamanda Aslanım da. Hangisi ağır basıyor derseniz inanın bazen ben bile düşünemiyorum.:)</p>
+			<h2 class="baslik">Hoşlandığım şeyler</h2>
+			<p>Nelerden hoşlanıyorum diye düşünecek olursam sanırım mouse'un kaydırağını kaydırarak bile 1 saatte sonuna gelirsiniz:)Görüp görebileceğim her şey hoşuma gider çünkü. Ama en basitlerini sayacak olursak sanırım okumak ve temiz hava diyebilirim. Okumak dediğim de sadece kitap okumak olarak düşünülmesin. Her anlamda okumak. Belki elinizdeki bir şiir kitabının dizeleri olur, belki kendi içinizdeki düşüncelerin beyninize kaydolduğu o yer olur, belki de direkt lise veya üniversite gibi yerler olur. Temiz hava anlayışım ise aslına bakarsanız sabah yürüyüşleri. Sabah(pek tabii kalkabilirsem) 7 de uyanıp elime ne gördüysem onu alıp üzerime geçirdiğim kıyafetlerim ve sürekli dolaşması yüzünden bir türlü kendisi ile anlaşamadığım kulaklığım ile beraber bir yürüyüş. Parkların sadece çocuklar için yapılmadığını düşünüyorum bazen o yürüyüşteyken. Çünkü en az yetişkinlere de iyi geliyormuş, onu anlıyorum. Ve inanın o anki hava görüp görebileceğiniz en muhteşem hava oluyor. Belki bunun sebebi daha solunmadığı içindir, kim bilir?</p>
+			<h2 class="baslik">Hobilerim</h2>
+			<p>Hobi olarak bahsedersek aslında her insanın hayatındaki bazı anlardaki hobileri, bazı anlardakine asla benzemez ya. Bende de aynısı var. Küçükken resim çizmek hobimdi hatta bir dalında Ankara 1. si bile olmuştum. Ama sonrasında bu hobi yavaş yavaş yerini kitaplara bırakmış. Ortaokul zamanlarımdan daha çok okumayı sevdiğim bir anı hayal bile edemiyorum. Resmen haftada 3 kitap bile bitirmişliğim vardı ki bu kitaplar en az 300 sayfalık oluyordu. </p>
+			<h2 class="baslik">Takımım</h2>
+			<p>Hangi takımlı olduğumu sanırım  aşağıdaki fotoğraf anlatacaktır:)</p>
+			<img src="kanarya.jpeg">
+			<p>Evet, Fenerbahçeliyim. 19 Mayıstaki Galatasaray-Fenerbahçe maçını ölesiye merak ediyorum şimdiden.</p>
+		
+			</div>
+<div id="altbilgi">
+	<p>Copyright &copy; 2024 Berra'nın Blogu. Tasarlayıcısı=<strong>Berra Akpınar</strong></a></p>
+</div>
+</body>
+</html>
