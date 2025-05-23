@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+<body>
+    <!--Navbar Section-->
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="#about" id="navbar__logo">Zeynep Baran</a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="index.html" class="navbar__links">Anasayfa</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#heritage" class="navbar__links">Mirasımız</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#hobilerim" class="navbar__links">İlgi Alanları</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#cv" class="navbar__links">Özgeçmiş</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#contact-form" class="navbar__links">İletişim</a>
+                </li>
+                <li class="navbar__btn">
+                    <a href="#sign-up" class="button">Giriş Yap</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!--Hero Section-->
+    <div class="main" id="home">
+        <div class="main__container">
+            <div class="overlay"></div>    
+            <div class="main__content">
+                <h1>ÇORUM</h1>
+                <h2>Lezzetin ve Kültürün Buluştuğu Yer</h2>
+                <button  class="main__btn" onclick="document.getElementById('slider').scrollIntoView({ behavior: 'smooth' });">Şehri Keşfet!</button>
+            </div>
+        </div>
+    </div>
+    <section id="about" class="about-section">
+        <div class="about-container">
+            <div class="giris">
+                <h1>Hakkımda</h1>
+                <h3>Merhaba, ben Zeynep Baran. Kitap okumayı, dizi izlemeyi, resim çizmeyi, fotoğraf çekmeyi, yemek yapmayı, voleybol oynamayı ve izlemeyi severim. Bu sayfada hobilerim ve ilgi alanlarımla ilgili daha fazla bilgi bulabilirsiniz.</h3>    
+            </div>            
+            <div class="hobbies">
+                <div class="hobby">
+                    <img src="images/kitap.jpg" alt="Kitap Okuma">
+                    <h2>Kitap Okumak</h2>
+                    <p>Kitap okumayı çok seviyorum. Farklı dünyalara yolculuk yapmak beni heyecanlandırıyor ve yeni şeyler öğrenmekten hoşlanıyorum.</p>
+                    <a href="https://www.goodreads.com/" target="_blank">Daha Fazla</a>
+                </div>
+                <div class="hobby">
+                    <img src="images/dizi.jpg" alt="Dizi İzleme">
+                    <h2>Dizi İzlemek</h2>
+                    <p>Boş zamanlarımda dizi izlemekten keyif alırım. Özellikle polisiye ve bilim kurgu türlerini severim.</p>
+                    <a href="https://www.netflix.com/" target="_blank">Daha Fazla</a>
+                </div>
+                <div class="hobby">
+                    <img src="images/resim.jpg" alt="Resim Çizme">
+                    <h2>Resim Çizmek</h2>
+                    <p>Boş zamanlarımda resim çizmek, stresten uzak kalmama yardımcı oluyor ve kafamı dağıtıyor. Bir şeyler ürettiğimi bilmek güzel bir his. </p>
+                    <a href="https://www.deviantart.com/" target="_blank">Daha Fazla</a>
+                </div>
+                <div class="hobby">
+                    <img src="images/fotograf.jpg" alt="Fotoğraf Çekme">
+                    <h2>Fotoğraf Çekme</h2>
+                    <p>Farklı yerler gezerken bir yandan da fotoğraf çekmeyi seviyorum. Geriye dönüp baktığımda önceden yaptığım şeykerin, gezdiğim yerlerin anı olarak kalması hoşuma gidiyor.</p>
+                    <a href="https://www.instagram.com/" target="_blank">Daha Fazla</a>
+                </div>
+                <div class="hobby">
+                    <img src="images/yemek.jpg" alt="Yemek Yapma">
+                    <h2>Yemek Yapma</h2>
+                    <p>Yemek yapmaktan çok keyif alıyorum. Yeni tarifler denemek ve sevdiğim insanlara tattırmak çok güzel.</p>
+                    <a href="https://www.allrecipes.com/" target="_blank">Daha Fazla</a>
+                </div>
+                <div class="hobby">
+                    <img src="images/voleybol.jpg" alt="Voleybol">
+                    <h2>Voleybol</h2>
+                    <p>Voleybol oynamayı ve izlemeyi çok seviyorum. Spor yaparken aynı zamanda takım arkadaşlarımla sosyalleşmek güzel.</p>
+                    <a href="https://www.fivb.com/" target="_blank">Daha Fazla</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="heritage">
+        <h1>Mirasımız</h1>
+        <p>Bu mirasımız bölümüdür.</p>
+    </section>
+    <section id="hobilerim">
+        <div id="film-listesi"></div>
+    </section>
+    <section id="cv">
+        <h1>Özgeçmiş</h1>
+        <p>Bu Özgeçmiş bölümüdür.</p>
+    </section>
+    <div class="slider_page" id="slider">
+        <div class="slider-wrapper">
+            <div class="slide" data-link="saatkulesi.html">
+                <img src="images/saatkulesi.jpg" alt="Saat Kulesi">
+                <p>Saat Kulesi</p>
+            </div>
+            <div class="slide" data-link="alacahoyuk.html">
+                <img src="images/alacahoyuk.jpg" alt="Alacahöyük">
+                <p>Alacahöyük</p>
+            </div>
+            <div class="slide" data-link="koyunbabakoprusu.html">
+                <img src="images/koyunbabakoprusu.jpg" alt="Koyunbaba Köpruüsü">
+                <p>Koyunbaba Köprüsü</p>
+            </div>
+            <div class="slide" data-link="hattusas.html">
+                <img src="images/hattusas.jpg" alt="Hattuşaş">
+                <p>Hattuşaş</p>
+            </div>
+        </div>
+        <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+            <button class="next" onclick="changeSlide(1)">&#10095;</button>
+    </div>
+    <section id="sign-up">
+        <div class="login-container">
+            <h2>Giriş Yap</h2>
+            <form action="login.php" method="POST" onsubmit="return validateForm()">
+                <label for="username">Kullanıcı Adı (Öğrenci Numarası)</label>
+                <input type="text" id="username" name="username" required>
+                
+                <label for="password">Şifre</label>
+                <input type="password" id="password" name="password" required>
+                
+                <button type="submit">Giriş Yap</button>
+            </form>
+        </div>
+    </section>
+    <section id="heritage">
+        <h1>Mirasımız</h1>
+        <p>Bu Mirasımız bölümüdür.</p>
+    </section>
+    <form id="contact-form" action="login.php" method="post">
+        <div>
+            <label for="name">Ad Soyad:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div>
+            <label for="email">E-posta:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div>
+            <label for="message">Mesaj:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+        </div>
+        <button type="submit">Gönder</button><br>
+        <button type="reset">Temizle</button>
+
+    </form>
+    
+    <script src="app.js"></script>
+</body>
+</html>
+
